@@ -155,7 +155,7 @@
                     </div>
                 </div>
             </section>
-            <div class="lg:absolute lg:top-[32rem] 4xl:top-[52rem] grid md:grid-cols-2 mt-2 lg:mt-0 lg:flex justify-between gap-4 px-4 lg:px-22 4xl:px-48">
+            <div class="lg:absolute lg:top-[32rem] grid md:grid-cols-2 mt-2 lg:mt-0 lg:flex justify-between gap-4 px-4 lg:px-22 4xl:px-48">
                 <div class="bg-white rounded-lg flex flex-col text-center p-4 md:max-w-xs border border-gray-300">
                     <i class="fas fa-book bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
                     <h3 class="text-xl font-bold">Logistics & Shipping</h3>
