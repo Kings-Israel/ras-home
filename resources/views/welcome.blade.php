@@ -160,26 +160,26 @@
                     </div>
                 </div>
             </section>
-            <div class="mt-4 lg:mt-0 lg:absolute lg:top-[42rem] 4xl:top-[52rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:flex lg:justify-between gap-4 px-4 lg:px-24 4xl:px-48">
-                <div class="bg-white rounded-lg flex flex-col text-center p-4 border border-gray-300 w-[22rem]">
+            <div class="mt-4 lg:mt-0 lg:absolute lg:top-[42rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:flex lg:justify-between gap-4 px-4 lg:px-24 4xl:px-48">
+                <div class="bg-white rounded-lg flex flex-col text-center p-4 border border-gray-300 w-[22rem] md:w-full">
                     <i class="fas fa-book bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
                     <h3 class="text-xl font-bold">Logistics & Shipping</h3>
                     <span class="font-semibold">We offer best practices for effcient transportation of bulky goods</span>
                     <button class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3">Read More</button>
                 </div>
-                <div class="bg-white rounded-lg flex flex-col text-center p-4 border border-gray-300 w-[22rem]">
+                <div class="bg-white rounded-lg flex flex-col text-center p-4 border border-gray-300 w-[22rem] md:w-full">
                     <i class="fas fa-credit-card bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
                     <h3 class="text-xl font-bold">Trade Financing</h3>
                     <span class="font-semibold">We provide secure financial instruments for transactions</span>
                     <button class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3">Read More</button>
                 </div>
-                <div class="bg-white rounded-lg flex flex-col text-center p-4 border border-gray-300 w-[22rem]">
+                <div class="bg-white rounded-lg flex flex-col text-center p-4 border border-gray-300 w-[22rem] md:w-full">
                     <i class="fas fa-cubes bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
                     <h3 class="text-xl font-bold">Networking Opportunities</h3>
                     <span class="font-semibold">Connect with businesses, potential partners & suppliers in Africa</span>
                     <button class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3">Read More</button>
                 </div>
-                <div class="bg-white rounded-lg flex flex-col text-center p-4 border border-gray-300 w-[22rem]">
+                <div class="bg-white rounded-lg flex flex-col text-center p-4 border border-gray-300 w-[22rem] md:w-full">
                     <i class="fas fa-briefcase bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
                     <h3 class="text-xl font-bold">Tarrifs & Duties</h3>
                     <span class="font-semibold">We provide insights to tarrids, taxes duties for different African countries</span>
