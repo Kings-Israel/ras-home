@@ -75,7 +75,7 @@
                         </li>
                         <li class="font-bold @if(request()->routeIs('partners.dashboard')) active @endif">
                             <a href="{{ config('app.marketplace_url') }}/vendor/dashboard">
-                                Dashbooard
+                                Dashboard
                             </a>
                         </li>
                         <li>
