@@ -147,16 +147,16 @@
                     >
                     <div class="max-w-4xl text-white text-center md:text-left">
                         <h1 class="text-3xl font-bold sm:text-5xl">
-                            A technology approach to logistics, warehousing & distribution
+                            A one-stop B2B platform for African businesses to import and export seamlessly
                         </h1>
 
-                        <p class="mt-4 max-w-lg sm:text-xl/relaxed font-semibold">
+                        {{-- <p class="mt-4 max-w-lg sm:text-xl/relaxed font-semibold">
                             Real Sources has helped distributors move goods worth over 30 Billion in the last one year.
-                        </p>
+                        </p> --}}
 
-                        <div class="mt-8 flex flex-wrap justify-center md:justify-start gap-4 text-center">
+                        {{-- <div class="mt-8 flex flex-wrap justify-center md:justify-start gap-4 text-center">
                             <button class="px-8 py-4 bg-white text-black font-semibold rounded-md">Schedule A Call</button>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </section>
@@ -165,25 +165,25 @@
                     <i class="fas fa-book bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
                     <h3 class="text-xl font-bold">Logistics & Shipping</h3>
                     <span class="font-semibold">We offer best practices for effcient transportation of bulky goods</span>
-                    <button class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3">Read More</button>
+                    <a href="{{ route('partners.index') }}" class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3">Read More</a>
                 </div>
                 <div class="bg-white rounded-lg flex flex-col text-center p-4 border border-gray-300 w-[22rem] md:w-full">
                     <i class="fas fa-credit-card bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
                     <h3 class="text-xl font-bold">Trade Financing</h3>
                     <span class="font-semibold">We provide secure financial instruments for transactions</span>
-                    <button class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3">Read More</button>
+                    <a href="{{ route('partners.index') }}" class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3">Read More</a>
                 </div>
                 <div class="bg-white rounded-lg flex flex-col text-center p-4 border border-gray-300 w-[22rem] md:w-full">
                     <i class="fas fa-cubes bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
                     <h3 class="text-xl font-bold">Networking Opportunities</h3>
                     <span class="font-semibold">Connect with businesses, potential partners & suppliers in Africa</span>
-                    <button class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3">Read More</button>
+                    <a href="#" class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3">Read More</a>
                 </div>
                 <div class="bg-white rounded-lg flex flex-col text-center p-4 border border-gray-300 w-[22rem] md:w-full">
                     <i class="fas fa-briefcase bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
                     <h3 class="text-xl font-bold">Tarrifs & Duties</h3>
                     <span class="font-semibold">We provide insights to tarrids, taxes duties for different African countries</span>
-                    <button class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3">Read More</button>
+                    <a href="#" class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3">Read More</a>
                 </div>
             </div>
 
@@ -192,9 +192,9 @@
                     <img src="{{ asset('assets/img/marketplace.png') }}" alt="" class="w-[38rem]">
                 </div>
                 <div class="lg:my-auto md:max-w-md flex flex-col justify-center md:block">
-                    <h2 class="text-2xl font-bold lg:mt-12 lg:mb-6 text-center md:text-left">The Marketplace</h2>
-                    <p class="font-semibold text-center md:text-left">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
-                    <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center mt-2 lg:mt-16 font-semibold">Visit our Marketplace</button>
+                    <h2 class="text-2xl font-bold text-center md:text-left">The Marketplace</h2>
+                    <p class="font-semibold text-center md:text-left md:mb-8">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
+                    <a href="{{ config('app.marketplace_url') }}" class="bg-primary-one text-white px-6 py-4 rounded-lg text-center mt-2 lg:mt-24 font-semibold">Visit our Marketplace</a>
                 </div>
             </div>
 
@@ -273,7 +273,7 @@
                     </div>
                 </div>
             </div>
-            <div class="px-4 lg:px-24 mt-4 md:mt-[8rem]">
+            {{-- <div class="px-4 lg:px-24 mt-4 md:mt-[8rem]">
                 <h1 class="text-3xl text-center my-2 font-semibold">Join Our Upcoming Events</h1>
                 <p class="text-center font-bold text-sm">Join us.</p>
                 <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -293,7 +293,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <div class="bg-slate-950 px-2 lg:px-24 mt-4 pb-12">
                 <img src="{{ asset('assets/img/logo-alt.png') }}" class="w-[10rem] h-[10rem] object-contain" alt="">
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-2 lg:gap-0 text-white">
