@@ -136,22 +136,18 @@
                 </div>
             </div>
             <section
-                class="relative bg-home-hero bg-cover bg-center bg-no-repeat h-[36rem]"
+                class="relative bg-home-hero bg-cover bg-center bg-no-repeat md:h-[36rem]"
             >
                 <div
                     class="absolute inset-0"
                 ></div>
                     <div
-                        class="relative mx-auto max-w-screen-xl px-4 pb-44 sm:px-6 lg:flex lg:h-[36rem] lg:items-center lg:px-8"
+                        class="relative mx-auto lg:mx-12 lg:max-w-screen-xl px-4 pb-44 sm:px-6 lg:flex lg:h-[36rem] lg:items-center"
                     >
-                    <div class="max-w-xl text-white text-center md:text-left">
-                        <h1 class="text-3xl font-extrabold sm:text-5xl lg:mt-0">
-                            A technology approach to logistics, warehousing & distribution
+                    <div class="text-white text-center md:text-left">
+                        <h1 class="pt-24 text-xl font-bold sm:text-5xl lg:mt-0">
+                            Real Sources Africa facilitates effortless trading among African businesses by providing logistical, financial, marketing and legal support all in one platform
                         </h1>
-
-                        <p class="mt-4 max-w-lg sm:text-xl/relaxed font-semibold">
-                            Find Out More About Us
-                        </p>
                     </div>
                 </div>
             </section>

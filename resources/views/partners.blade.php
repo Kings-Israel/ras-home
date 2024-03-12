@@ -136,22 +136,18 @@
                 </div>
             </div>
             <section
-                class="relative bg-home-hero bg-cover bg-center bg-no-repeat h-[36rem]"
+                class="relative bg-home-hero bg-cover bg-center bg-no-repeat md:h-[36rem]"
             >
                 <div
                     class="absolute inset-0"
                 ></div>
                     <div
-                        class="relative mx-auto max-w-screen-xl px-4 pb-44 sm:px-6 lg:flex lg:h-[36rem] lg:items-center lg:px-8"
+                        class="relative mx-auto lg:mx-12 lg:max-w-screen-xl px-4 pb-44 sm:px-6 lg:flex lg:h-[36rem] md:items-center"
                     >
-                    <div class="max-w-xl text-white text-center md:text-left">
-                        <h1 class="text-3xl font-extrabold sm:text-5xl lg:mt-0">
-                            30B+ Annual Sale Value
+                    <div class="text-white text-center md:text-left">
+                        <h1 class="pt-24 text-xl font-bold sm:text-5xl lg:mt-0">
+                            Are you a Trade Financing, Trade Insurance, Transport & Logistics, Warehousing, Collateral Management, Clearing & Forwarding company looking to work with African businesses?
                         </h1>
-
-                        <p class="mt-4 max-w-lg sm:text-xl/relaxed font-semibold">
-                            Real Sources has helped distributors move goods worth over 30 Billion in the last one year
-                        </p>
                     </div>
                 </div>
             </section>
@@ -177,13 +173,13 @@
                 <div class="bg-white rounded-lg flex flex-col text-center p-4 md:max-w-xs border border-gray-300">
                     <i class="fas fa-briefcase bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
                     <h3 class="text-xl font-bold">Warehouse Partner</h3>
-                    <span class="font-semibold">We provide insights to tarrids, taxes duties for different African countries</span>
+                    <span class="font-semibold">We provide insights to tarrifs, taxes duties for different African countries</span>
                     <a href="{{ config('app.marketplace_url') }}/partner/warehouse/signup" class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3 hover:bg-primary-one hover:text-white">Sign Up</a>
                 </div>
                 <div class="bg-white rounded-lg flex flex-col text-center p-4 md:max-w-xs border border-gray-300">
                     <i class="fas fa-briefcase bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
                     <h3 class="text-xl font-bold">Inspection Partner</h3>
-                    <span class="font-semibold">We provide insights to tarrids, taxes duties for different African countries</span>
+                    <span class="font-semibold">We provide insights to tarrifs, taxes duties for different African countries</span>
                     <a href="{{ config('app.marketplace_url') }}/partner/inspector/signup" class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3 hover:bg-primary-one hover:text-white">Sign Up</a>
                 </div>
             </div>
@@ -193,17 +189,17 @@
                     <img src="{{ asset('assets/img/finance.jpg') }}" alt="" class="w-[38rem] h-[24rem] lg:h-[46rem] object-cover rounded-lg">
                 </div>
                 <div class="my-auto max-w-md">
-                    <h2 class="text-2xl font-bold mt-2 md:mt-12 mb-6">Trade Financing</h2>
-                    <p class="font-semibold">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
-                    <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button>
+                    <h2 class="text-3xl font-bold mt-2 md:mt-12 mb-6">Trade Financing</h2>
+                    <p class="font-semibold text-xl">Real Sources Africa gives you access to verified existing businesses with ongoing transactions whose documentation is accessible on the dashboard. From their peer ratings on Real Sources Africa, you can credibly authenticate their trade flows, integrity and credit history.</p>
+                    {{-- <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button> --}}
                 </div>
             </div>
 
             <div class="mt-2 px-4 lg:mt-24 lg:px-24 flex flex-col-reverse md:grid md:grid-cols-2 md:gap-2 lg:gap-0 border-b pb-2 border-slate-400">
                 <div class="my-auto max-w-md">
-                    <h2 class="text-2xl font-bold mt-2 md:mt-12 mb-6">Insurance Partner</h2>
-                    <p class="font-semibold">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
-                    <button class="bg-primary-one text-white px-10 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button>
+                    <h2 class="text-3xl font-bold mt-2 md:mt-12 mb-6">Insurance Partner</h2>
+                    <p class="font-semibold text-xl">Access high-volume traders seeking to ensure that their goods reach customers globally safe;y and on time. There is guaranteed transparency of transactions and high trade flows.</p>
+                    {{-- <button class="bg-primary-one text-white px-10 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button> --}}
                 </div>
                 <div class="">
                     <img src="{{ asset('assets/img/insurance.jpg') }}" alt="" class="w-[38rem] h-[24rem] lg:h-[46rem] object-cover rounded-lg">
@@ -215,17 +211,17 @@
                     <img src="{{ asset('assets/img/logistics3.jpg') }}" alt="" class="w-[38rem] h-[24rem] lg:h-[46rem] object-cover rounded-lg">
                 </div>
                 <div class="my-auto max-w-md">
-                    <h2 class="text-2xl font-bold mt-2 md:mt-12 mb-6">Logistics & Shipping Partner</h2>
-                    <p class="font-semibold">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
-                    <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button>
+                    <h2 class="text-3xl font-bold mt-2 md:mt-12 mb-6">Transport & Logistics</h2>
+                    <p class="font-semibold text-xl">Our vendors depend on you to move goods around the 54 African countries worth billions in value globally.</p>
+                    {{-- <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button> --}}
                 </div>
             </div>
 
             <div class="mt-2 px-4 lg:mt-24 lg:px-24 flex flex-col-reverse md:grid md:grid-cols-2 md:gap-2 lg:gap-0 border-b pb-2 border-slate-400">
                 <div class="my-auto max-w-md">
-                    <h2 class="text-2xl font-bold mt-12 mb-6">Collateral Management Partner</h2>
-                    <p class="font-semibold">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
-                    <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button>
+                    <h2 class="text-3xl font-bold mt-12 mb-6">Clearing and Forwarding Agencies</h2>
+                    <p class="font-semibold text-xl">There are millions of customers counting on you to facilitate smooth shipment and clearance of cargo. This is an opportunity to support African businesses through timely documentation, proper documentation and paperwork and subsidiary activities like specialized labor and transport.</p>
+                    {{-- <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button> --}}
                 </div>
                 <div class="">
                     <img src="{{ asset('assets/img/collateral.jpg') }}" alt="" class="w-[38rem] h-[24rem] lg:h-[46rem] object-cover rounded-lg">
@@ -237,9 +233,9 @@
                     <img src="{{ asset('assets/img/warehousing.jpg') }}" alt="" class="w-[38rem] h-[24rem] lg:h-[46rem] object-cover rounded-lg">
                 </div>
                 <div class="my-auto max-w-md">
-                    <h2 class="text-2xl font-bold mt-2 md:mt-12 mb-6">Warehousing</h2>
-                    <p class="font-semibold">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
-                    <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-semibold">Read More</button>
+                    <h2 class="text-3xl font-bold mt-2 md:mt-12 mb-6">Warehousing</h2>
+                    <p class="font-semibold text-xl">RSA supports your operations in various markets across Africa by providing you with short-term and secure warehouse facilities at affordable costs. Whether you are dealing in perishable, fragile, or bulky goods we have specifically designed something for your business.</p>
+                    {{-- <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-semibold">Read More</button> --}}
                 </div>
             </div>
 
