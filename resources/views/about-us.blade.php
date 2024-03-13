@@ -36,91 +36,176 @@
                     </div>
                 </div>
             </section>
-            {{-- <div class="lg:absolute lg:top-[32rem] 4xl:top-[52rem] grid md:grid-cols-2 mt-2 lg:mt-0 lg:flex justify-between gap-4 px-4 lg:px-22 4xl:px-48">
-                <div class="bg-white rounded-lg flex flex-col text-center p-4 md:max-w-xs border border-gray-300">
-                    <i class="fas fa-book bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
-                    <h3 class="text-xl font-bold">Logistics & Shipping</h3>
-                    <span class="font-semibold">We offer best practices for effcient transportation of bulky goods</span>
-                    <a href="{{ route('partners.signup', ['type' => 'logistics']) }}" class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3 hover:bg-primary-one hover:text-white">Sign Up</a>
-                </div>
-                <div class="bg-white rounded-lg flex flex-col text-center p-4 md:max-w-xs border border-gray-300">
-                    <i class="fas fa-credit-card bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
-                    <h3 class="text-xl font-bold">Financing Partner</h3>
-                    <span class="font-semibold">We provide secure financial instruments for transactions</span>
-                    <a href="{{ route('partners.signup', ['type' => 'financier']) }}" class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3 hover:bg-primary-one hover:text-white">Sign Up</a>
-                </div>
-                <div class="bg-white rounded-lg flex flex-col text-center p-4 md:max-w-xs border border-gray-300">
-                    <i class="fas fa-cubes bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
-                    <h3 class="text-xl font-bold">Insurance Partner</h3>
-                    <span class="font-semibold">Connect with businesses, potential partners & suppliers in Africa</span>
-                    <a href="{{ route('partners.signup', ['type' => 'insurance']) }}" class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3 hover:bg-primary-one hover:text-white">Sign Up</a>
-                </div>
-                <div class="bg-white rounded-lg flex flex-col text-center p-4 md:max-w-xs border border-gray-300">
-                    <i class="fas fa-briefcase bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
-                    <h3 class="text-xl font-bold">Warehouse Partner</h3>
-                    <span class="font-semibold">We provide insights to tarrids, taxes duties for different African countries</span>
-                    <a href="{{ route('partners.signup', ['type' => 'warehouse']) }}" class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3 hover:bg-primary-one hover:text-white">Sign Up</a>
-                </div>
-                <div class="bg-white rounded-lg flex flex-col text-center p-4 md:max-w-xs border border-gray-300">
-                    <i class="fas fa-briefcase bg-[#ecb7b6bf] text-[#6E1210] p-4 rounded-lg w-fit mx-auto"></i>
-                    <h3 class="text-xl font-bold">Inspection Partner</h3>
-                    <span class="font-semibold">We provide insights to tarrids, taxes duties for different African countries</span>
-                    <a href="{{ route('partners.signup', ['type' => 'inspector']) }}" class="border-2 border-primary-one w-3/4 mx-auto py-4 px-4 text-center font-bold text-primary-one rounded-lg my-3 hover:bg-primary-one hover:text-white">Sign Up</a>
-                </div>
-            </div> --}}
 
-            <div class="mt-2 px-4 lg:mt-24 lg:px-24 grid md:grid-cols-2 md:gap-2 lg:gap-0 border-b pb-2 border-slate-400">
+            <div class="px-2 lg:px-24">
                 <div class="">
-                    <img src="{{ asset('assets/img/finance.jpg') }}" alt="" class="w-[38rem] h-[24rem] lg:h-[46rem] object-cover rounded-lg">
-                </div>
-                <div class="my-auto max-w-md">
-                    <h2 class="text-2xl font-bold mt-2 md:mt-8 mb-6">Trade Financing</h2>
-                    <p class="font-semibold">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
-                    <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button>
+                    <div>
+                        <p class="mt-4 sm:text-2xl/relaxed font-bold underline text-primary-two">
+                            Our Pillars
+                        </p>
+                        <p class="sm:text-xl/relaxed font-bold">
+                            RSA is driven by three strategic pillars:
+                        </p>
+                        <ul class="font-semibold text-lg block md:grid md:grid-cols-3 gap-4">
+                            <li class="border rounded-lg border-slate-400 p-2">
+                                <p class="sm:text-xl/relaxed font-semibold text-primary-one text-center">
+                                    Unlocking AfCFTA and global markets for African Businesses
+                                </p>
+                            </li>
+                            <li class="border rounded-lg border-slate-400 p-2">
+                                <p class="sm:text-xl/relaxed font-semibold text-primary-one text-center">
+                                    Strong partnerships
+                                </p>
+                            </li>
+                            <li class="border rounded-lg border-slate-400 p-2">
+                                <p class="sm:text-xl/relaxed font-semibold text-primary-one text-center">
+                                    Continental trading in strategic and authentic African products
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="border-b-2 border-slate-300 pb-2">
+                        <p class="mt-4 sm:text-2xl/relaxed font-bold underline text-primary-two">
+                            Learn More...
+                        </p>
+                        <p class="mt-4 sm:text-xl/relaxed font-semibold">
+                            We understand that we cannot connect African SMEs to global markets and help them realize their full potential as the next frontier in global trade without addressing challenges that hinder access, rapid transactions, and growth such as red tape, lack of trust, logistical challenges, finances, last mile distribution, and market intelligence.
+                        </p>
+                        <p class="mt-4 sm:text-xl/relaxed font-semibold">
+                            Our work at RSA is to remove these barriers by assembling all the resources your business needs under one platform to seamlessly connect you with buyers across AfCFTA and global markets.
+                        </p>
+                        <p class="mt-4 sm:text-xl/relaxed font-semibold">
+                            As you focus on producing authentic African products, RSA will do the rest to ensure you fetch the right prices in a ready market. We bring you the market, tools, logistical support, resources and partners right to your screen with a click of a button.
+                        </p>
+                    </div>
+                    <div>
+                        <p class="mt-4 sm:text-2xl/relaxed font-bold underline text-primary-two">
+                            Why Real Sources Africa?
+                        </p>
+                        <ul class="font-semibold text-lg block md:grid md:grid-cols-2 gap-4">
+                            <li class="border rounded-lg border-slate-400 p-2">
+                                <p class="sm:text-2xl/relaxed font-bold text-primary-one">
+                                    ✔	Get connected
+                                </p>
+                                <p class="sm:text-xl/relaxed font-semibold">
+                                    RSA avails a global market that understands and values the authenticity and quality of African products while protecting you from exploitative prices and unscrupulous brokers.
+                                </p>
+                            </li>
+                            <li class="border rounded-lg border-slate-400 p-2">
+                                <p class="sm:text-2xl/relaxed font-bold text-primary-one">
+                                    ✔	Logistical optimization and support
+                                </p>
+                                <p class="sm:text-xl/relaxed font-semibold">
+                                    We take care of red tape across African borders to ensure timely delivery, security and preservation of the quality of your products at the lowest cost possible. RSA provides technologically-supported logistics to allow real-time tracking of transactions.
+                                </p>
+                            </li>
+                            <li class="border rounded-lg border-slate-400 p-2">
+                                <p class="sm:text-2xl/relaxed font-bold text-primary-one">
+                                    ✔	Build and showcase your brand
+                                </p>
+                                <p class="sm:text-xl/relaxed font-semibold">
+                                    Being a verified seller on RSA is in itself a mark of trust and quality. We help you meet and get recognized by millions of trusted customers every day for free. Every successful transaction increases your rating drawing reputable partners and buyers to you.
+                                </p>
+                            </li>
+                            <li class="border rounded-lg border-slate-400 p-2">
+                                <p class="sm:text-2xl/relaxed font-bold text-primary-one">
+                                    ✔	Verified and trusted Suppliers
+                                </p>
+                                <p class="sm:text-xl/relaxed font-semibold">
+                                    We do background checks on all vendors onboarding RSA to ensure they are duly registered and satisfy legal requirements and product standards.
+                                </p>
+                            </li>
+                            <li class="border rounded-lg border-slate-400 p-2">
+                                <p class="sm:text-2xl/relaxed font-bold text-primary-one">
+                                    ✔	Grow your business
+                                </p>
+                                <p class="sm:text-xl/relaxed font-semibold">
+                                    Build successful relationships with players in your industry and stay up-to-date with relevant market data to give your business a competitive edge.
+                                </p>
+                            </li>
+                            <li class="border rounded-lg border-slate-400 p-2">
+                                <p class="sm:text-2xl/relaxed font-bold text-primary-one">
+                                    ✔	Market Intelligence
+                                </p>
+                                <p class="sm:text-xl/relaxed font-semibold">
+                                    You can move with confidence in the marketplace as we provide you with valuable market insights, trading tips, market trends, tariffs and taxes, climate impacts, and (industry) expertise per industry.
+                                </p>
+                            </li>
+                            <li class="border rounded-lg border-slate-400 p-2">
+                                <p class="sm:text-2xl/relaxed font-bold text-primary-one">
+                                    ✔	Freedom to do business
+                                </p>
+                                <p class="sm:text-xl/relaxed font-semibold">
+                                    RSA lets you decide and bargain your pricing, minimum order quantity, and shipping terms.
+                                </p>
+                            </li>
+                            <li class="border rounded-lg border-slate-400 p-2">
+                                <p class="sm:text-2xl/relaxed font-bold text-primary-one">
+                                    ✔	Authentic African quality
+                                </p>
+                                <p class="sm:text-xl/relaxed font-semibold">
+                                    Our product range is well- thought out as we focused on the uniqueness of African supplies
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
-            <div class="mt-2 px-4 lg:mt-24 lg:px-24 flex flex-col-reverse md:grid md:grid-cols-2 md:gap-2 lg:gap-0 border-b pb-2 border-slate-400">
-                <div class="my-auto max-w-md">
-                    <h2 class="text-2xl font-bold mt-2 md:mt-12 mb-6">Insurance Partner</h2>
-                    <p class="font-semibold">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
-                    <button class="bg-primary-one text-white px-10 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button>
+            <div class="hidden">
+                <div class="mt-2 px-4 lg:mt-24 lg:px-24 grid md:grid-cols-2 md:gap-2 lg:gap-0 border-b pb-2 border-slate-400">
+                    <div class="">
+                        <img src="{{ asset('assets/img/finance.jpg') }}" alt="" class="w-[38rem] h-[24rem] lg:h-[46rem] object-cover rounded-lg">
+                    </div>
+                    <div class="my-auto max-w-md">
+                        <h2 class="text-2xl font-bold mt-2 md:mt-8 mb-6">Trade Financing</h2>
+                        <p class="font-semibold">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
+                        <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button>
+                    </div>
                 </div>
-                <div class="">
-                    <img src="{{ asset('assets/img/insurance.jpg') }}" alt="" class="w-[38rem] h-[24rem] lg:h-[46rem] object-cover rounded-lg">
-                </div>
-            </div>
 
-            <div class="mt-2 px-4 lg:mt-24 lg:px-24 grid md:grid-cols-2 md:gap-2 lg:gap-0 border-b pb-2 border-slate-400">
-                <div class="">
-                    <img src="{{ asset('assets/img/logistics3.jpg') }}" alt="" class="w-[38rem] h-[24rem] lg:h-[46rem] object-cover rounded-lg">
+                <div class="mt-2 px-4 lg:mt-24 lg:px-24 flex flex-col-reverse md:grid md:grid-cols-2 md:gap-2 lg:gap-0 border-b pb-2 border-slate-400">
+                    <div class="my-auto max-w-md">
+                        <h2 class="text-2xl font-bold mt-2 md:mt-12 mb-6">Insurance Partner</h2>
+                        <p class="font-semibold">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
+                        <button class="bg-primary-one text-white px-10 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button>
+                    </div>
+                    <div class="">
+                        <img src="{{ asset('assets/img/insurance.jpg') }}" alt="" class="w-[38rem] h-[24rem] lg:h-[46rem] object-cover rounded-lg">
+                    </div>
                 </div>
-                <div class="my-auto max-w-md">
-                    <h2 class="text-2xl font-bold mt-2 md:mt-12 mb-6">Logistics & Shipping Partner</h2>
-                    <p class="font-semibold">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
-                    <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button>
-                </div>
-            </div>
 
-            <div class="mt-2 px-4 lg:mt-24 lg:px-24 flex flex-col-reverse md:grid md:grid-cols-2 md:gap-2 lg:gap-0 border-b pb-2 border-slate-400">
-                <div class="my-auto max-w-md">
-                    <h2 class="text-2xl font-bold mt-12 mb-6">Collateral Management Partner</h2>
-                    <p class="font-semibold">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
-                    <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button>
+                <div class="mt-2 px-4 lg:mt-24 lg:px-24 grid md:grid-cols-2 md:gap-2 lg:gap-0 border-b pb-2 border-slate-400">
+                    <div class="">
+                        <img src="{{ asset('assets/img/logistics3.jpg') }}" alt="" class="w-[38rem] h-[24rem] lg:h-[46rem] object-cover rounded-lg">
+                    </div>
+                    <div class="my-auto max-w-md">
+                        <h2 class="text-2xl font-bold mt-2 md:mt-12 mb-6">Logistics & Shipping Partner</h2>
+                        <p class="font-semibold">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
+                        <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button>
+                    </div>
                 </div>
-                <div class="">
-                    <img src="{{ asset('assets/img/collateral.jpg') }}" alt="" class="w-[38rem] h-[24rem] lg:h-[46rem] object-cover rounded-lg">
-                </div>
-            </div>
 
-            <div class="mt-2 px-4 lg:mt-24 lg:px-24 grid md:grid-cols-2 md:gap-2 lg:gap-0 pb-2">
-                <div class="">
-                    <img src="{{ asset('assets/img/warehousing.jpg') }}" alt="" class="w-[38rem] h-[24rem] lg:h-[46rem] object-cover rounded-lg">
+                <div class="mt-2 px-4 lg:mt-24 lg:px-24 flex flex-col-reverse md:grid md:grid-cols-2 md:gap-2 lg:gap-0 border-b pb-2 border-slate-400">
+                    <div class="my-auto max-w-md">
+                        <h2 class="text-2xl font-bold mt-12 mb-6">Collateral Management Partner</h2>
+                        <p class="font-semibold">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
+                        <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-bold">Read More</button>
+                    </div>
+                    <div class="">
+                        <img src="{{ asset('assets/img/collateral.jpg') }}" alt="" class="w-[38rem] h-[24rem] lg:h-[46rem] object-cover rounded-lg">
+                    </div>
                 </div>
-                <div class="my-auto max-w-md">
-                    <h2 class="text-2xl font-bold mt-2 md:mt-12 mb-6">Warehousing</h2>
-                    <p class="font-semibold">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
-                    <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-semibold">Read More</button>
+
+                <div class="mt-2 px-4 lg:mt-24 lg:px-24 grid md:grid-cols-2 md:gap-2 lg:gap-0 pb-2">
+                    <div class="">
+                        <img src="{{ asset('assets/img/warehousing.jpg') }}" alt="" class="w-[38rem] h-[24rem] lg:h-[46rem] object-cover rounded-lg">
+                    </div>
+                    <div class="my-auto max-w-md">
+                        <h2 class="text-2xl font-bold mt-2 md:mt-12 mb-6">Warehousing</h2>
+                        <p class="font-semibold">Real Sources Africa now gives SMEs an opportunity to compete in an international market by gaining visbility on the platform. The marketplace offers ease and convenience of trading accross a wide variety and accessibility of goods and products at a competitive rate.</p>
+                        <button class="bg-primary-one text-white px-6 py-4 rounded-lg text-center md:mt-16 font-semibold">Read More</button>
+                    </div>
                 </div>
             </div>
 

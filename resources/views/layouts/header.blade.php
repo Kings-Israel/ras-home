@@ -83,7 +83,7 @@
             </li>
             <li class="font-bold @if(request()->routeIs('partners.vendors')) active @endif">
                 <a href="{{ route('partners.vendors') }}">
-                    Vendors
+                    Sellers
                 </a>
             </li>
             <li class="font-bold">

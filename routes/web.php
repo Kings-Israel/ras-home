@@ -34,3 +34,7 @@ Route::get('/vendors', function () {
 Route::get('/contact', function () {
     return view('contact-us');
 })->name('partners.contact');
+
+Route::get('/home', function () {
+    return view('home2');
+});

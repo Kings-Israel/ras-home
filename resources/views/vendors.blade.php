@@ -28,22 +28,53 @@
                     <div
                         class="relative lg:px-24 4xl:px-48 px-4 pb-32 sm:px-6 lg:flex lg:h-[520px] lg:items-center"
                     >
-                    <div class="max-w-4xl text-white text-center md:text-left">
-                        <h1 class="text-3xl font-bold sm:text-5xl">
-                            A technology approach to logistics, warehousing & distribution
+                    <div class="text-white text-center md:text-left">
+                        <h1 class="pt-24 text-xl font-bold sm:text-5xl lg:mt-0">
+                            Selling with RSA means having guaranteed access to logistical support, financing partners, and industry insights to trade seamlessly across markets in Africa & beyond.
                         </h1>
 
-                        <p class="mt-4 max-w-lg sm:text-xl/relaxed font-semibold">
+                        {{-- <p class="mt-4 max-w-lg sm:text-xl/relaxed font-semibold">
                             Here are some of our suppliers.
-                        </p>
+                        </p> --}}
 
                         <div class="mt-8 flex flex-wrap justify-center md:justify-start gap-4 text-center">
-                            <button class="px-8 py-4 bg-white text-black font-semibold rounded-md">Schedule A Call</button>
+                            {{-- <button class="px-8 py-4 bg-white text-black font-semibold rounded-md">Schedule A Call</button> --}}
                         </div>
                     </div>
                 </div>
             </section>
             <div class="px-2 lg:px-24 grid grid-cols-3 gap-2 my-4">
+                <div class="col-span-full border-b-2 border-slate-300 pb-4 grid grid-cols-2 gap-2">
+                    <div>
+                        <p class="mt-4 max-w-lg sm:text-xl/relaxed font-semibold col-span-full text-primary-two underline">
+                            Benefits:
+                        </p>
+                        <ul class="font-semibold list-disc text-lg">
+                            <li>Access new African and global business opportunities instantly.</li>
+                            <li>Get financing and logistical partners to upscale your business.</li>
+                            <li>Do business with reliable and verified traders of authentic African quality.</li>
+                            <li>Get ahead of the market with expert market information, trends and insights.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="mt-4 max-w-lg sm:text-xl/relaxed font-semibold col-span-full text-primary-two underline">
+                            Start Selling now:
+                        </p>
+                        <ul class="font-semibold text-lg list-decimal">
+                            <li>Take good photos of your products and have all statutory documents of your business within reach.</li>
+                            <li><a href="{{ config('app.marketplace_url') }}/register?type=vendor" target="_blank" class="text-primary-one underline">Open your account/ Sign up</a> for an RSA account.</li>
+                            <li>Verify the account by clicking the link sent to your email.</li>
+                            <li>Upload all the necessary documents as prompted/guided on the RSA portal.</li>
+                            <li>Ensure that the documents are well labeled.</li>
+                            <li>Upload photos of your products </li>
+                            <li>Provide additional information about the product or business to increase your chances of selling.</li>
+                            <li>Start selling.</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="mt-4 max-w-lg sm:text-xl/relaxed font-semibold col-span-full text-primary-two underline">
+                    Here are some of our suppliers.
+                </p>
                 @foreach ($businesses as $business)
                     <x-card class="border-2 border-gray-400 grid md:grid-cols-2 gap-1">
                         <div>

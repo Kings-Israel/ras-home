@@ -44,29 +44,34 @@
                 </div>
             </section>
             <div class="px-2 lg:px-24">
-                <form action="coming-soon.php" method="post">
-                    <div class="px-2 md:px-44 grid grid-cols-3 gap-3 my-4">
-                        <div class="flex flex-col">
-                            <label class="text-[#6F1310] text-md font-bold">Full Name</label>
-                            <input name="fullname" class="border-2 border-gray-300 dark:border-gray-300 dark:text-dark bg-slate-200 focus:border-gray-400 dark:focus:border-gray-400 focus:ring-gray-400 dark:focus:ring-gray-400 rounded-md shadow-sm h-10" />
+                <div class="md:px-44">
+                    <p class="mt-4 max-w-lg sm:text-xl/relaxed font-semibold col-span-full">
+                        Send us an email, We'll get back to you
+                    </p>
+                    <form action="coming-soon.php" method="post">
+                        <div class="px-2 grid grid-cols-3 gap-3 my-4">
+                            <div class="flex flex-col">
+                                <label class="text-[#6F1310] text-md font-bold">Full Name</label>
+                                <input name="fullname" class="border-2 border-gray-300 dark:border-gray-300 dark:text-dark bg-slate-200 focus:border-gray-400 dark:focus:border-gray-400 focus:ring-gray-400 dark:focus:ring-gray-400 rounded-md shadow-sm h-10" />
+                            </div>
+                            <div class="flex flex-col">
+                                <label class="text-[#6F1310] text-md font-bold">Organization</label>
+                                <input name="organization" class="border-2 border-gray-300 dark:border-gray-300 dark:text-dark bg-slate-200 focus:border-gray-400 dark:focus:border-gray-400 focus:ring-gray-400 dark:focus:ring-gray-400 rounded-md shadow-sm h-10" />
+                            </div>
+                            <div class="flex flex-col">
+                                <label class="text-[#6F1310] text-md font-bold">Email Address</label>
+                                <input name="email" class="border-2 border-gray-300 dark:border-gray-300 dark:text-dark bg-slate-200 focus:border-gray-400 dark:focus:border-gray-400 focus:ring-gray-400 dark:focus:ring-gray-400 rounded-md shadow-sm h-10" />
+                            </div>
+                            <div class="col-span-3">
+                                <label class="text-[#6F1310] text-md font-bold">Message</label>
+                                <textarea name="message" id="" class="w-full bg-gray-200 border-0 rounded-md" rows="5"></textarea>
+                            </div>
+                            <div class="col-span-3">
+                                <button type="submit" class="bg-primary-one mb-8 rounded-lg text-white px-4 py-1 font-bold tracking-wider">Submit</button>
+                            </div>
                         </div>
-                        <div class="flex flex-col">
-                            <label class="text-[#6F1310] text-md font-bold">Organization</label>
-                            <input name="organization" class="border-2 border-gray-300 dark:border-gray-300 dark:text-dark bg-slate-200 focus:border-gray-400 dark:focus:border-gray-400 focus:ring-gray-400 dark:focus:ring-gray-400 rounded-md shadow-sm h-10" />
-                        </div>
-                        <div class="flex flex-col">
-                            <label class="text-[#6F1310] text-md font-bold">Email Address</label>
-                            <input name="email" class="border-2 border-gray-300 dark:border-gray-300 dark:text-dark bg-slate-200 focus:border-gray-400 dark:focus:border-gray-400 focus:ring-gray-400 dark:focus:ring-gray-400 rounded-md shadow-sm h-10" />
-                        </div>
-                        <div class="col-span-3">
-                            <label class="text-[#6F1310] text-md font-bold">Message</label>
-                            <textarea name="message" id="" class="w-full bg-gray-200 border-0 rounded-md" rows="5"></textarea>
-                        </div>
-                        <div class="col-span-3">
-                            <button type="submit" class="bg-primary-one mb-8 rounded-lg text-white px-4 py-1 font-bold tracking-wider">Submit</button>
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
             <div class="bg-slate-950 px-2 lg:px-24 mt-4 pb-12">
                 <img src="{{ asset('assets/img/logo-alt.png') }}" class="w-[10rem] h-[10rem] object-contain" alt="">
